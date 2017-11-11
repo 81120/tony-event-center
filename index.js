@@ -52,7 +52,7 @@ class EventCenter {
     })
   }
   off(eventName, handler) {
-    if (!isValidEventName) {
+    if (!isValidEventName(eventName)) {
       return
     }
     if (!isValidFunction(handler)) {
