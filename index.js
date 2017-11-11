@@ -44,7 +44,7 @@ class EventCenter {
       if (!isValidFunction(handler)) {
         return;
       }
-      if (isValidTimesToExecute(timesToExecute) && (timesToExecute <= timesExecuted)) {
+      if (isValidTimesToExecute(timesToExecute) && (typeof timesToExecute === 'number') && (timesToExecute <= timesExecuted)) {
         return;
       }
       eventHandler.timesExecuted = timesExecuted + 1
