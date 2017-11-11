@@ -1,0 +1,23 @@
+{
+  "name": "toy-event-center",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/81120/tony-event-center.git"
+  },
+  "keywords": [
+    "event",
+    "center"
+  ],
+  "author": "nicolas.leo.hu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/81120/tony-event-center/issues"
+  },
+  "homepage": "https://github.com/81120/tony-event-center#readme"
+}
